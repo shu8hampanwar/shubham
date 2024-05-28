@@ -1,3 +1,4 @@
+console.log(process.env.NOTION_PAGE_ID)
 const CONFIG = {
   // profile setting (required)
   profile: {
@@ -12,18 +13,18 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `shubhampanwar`,
-      href: "https://github.com/shu8hampanwar",
+      name: `leikhub`,
+      href: "https://leikhub.com",
     },
   ],
   // blog setting (required)
   blog: {
-    title: "ciephr",
-    description: "welcome to Ciephr!",
+    title: "home",
+    description: "welcome to my digital space!",
   },
 
   // CONFIG configration (required)
-  link: "https://morethan-log.vercel.app",
+  link: "https://shubhampanwar.vercel.app",
   since: 2024, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
