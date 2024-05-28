@@ -13,7 +13,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `leikhub`,
+      name: `Leikhub`,
       href: "https://leikhub.com",
     },
   ],
