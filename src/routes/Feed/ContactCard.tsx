@@ -2,7 +2,7 @@ import styled from "@emotion/styled"
 import React from "react"
 import {
   AiFillLinkedin,
-  AiOutlineGithub,
+AiFillFolder,
   AiOutlineInstagram,
   AiOutlineMail,
 } from "react-icons/ai"
@@ -18,12 +18,12 @@ const ContactCard: React.FC = () => {
       <StyledWrapper>
         {CONFIG.profile.github && (
           <a
-            href={`https://github.com/${CONFIG.profile.github}`}
+            href={`https://noteforms.com/forms/welcome-to-matrix-cybfdb`}
             rel="noreferrer"
             target="_blank"
           >
-            <AiOutlineGithub className="icon" />
-            <div className="name">github</div>
+            <AiFillFolder className="icon" />
+            <div className="name">newsletter</div>
           </a>
         )}
         {CONFIG.profile.instagram && (
